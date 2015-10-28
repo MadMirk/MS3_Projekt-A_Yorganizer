@@ -29,4 +29,4 @@ In PHP müssen folgende Funktionen implementiert werden:
 Vorgehensweise:
 - Grundlegende PHP Anwendungen anschaunen (Code-Beispiele)
 - Schnittstelle zwischen PHP und HTML verstehen (YouTube / stackoverflow)
-- einzelne Funktionen analysieren und in kleinere Funktionen übertragen
+- einzelne Funktionen analysieren und in kleinere Funktionen zerlegen
