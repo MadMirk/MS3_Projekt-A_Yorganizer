@@ -5,8 +5,8 @@ Yorganizer
 **********
 
 Team bestehend aus:
-- Kevin Hoppe
-- Mirko Greve
+- Kevin Hoppe (yellowKH)
+- Mirko Greve (MadMirk)
 
 Grundidee:
 Eine schlichte und einfache Webanwendung, bei der einem Aufgaben und Termine je nach Dringlichkeit als verschieden grosze Flaechen dargestellt werden.
