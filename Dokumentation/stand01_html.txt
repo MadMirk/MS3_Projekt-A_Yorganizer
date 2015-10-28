@@ -14,18 +14,23 @@ Die Oberfläche unserer Webanwendung besteht aus folgenden Bestandteilen:
     - Die Größe & Anordnung der panels hängt von bestimmten Faktoren wie der Zeit bis zum Eintreten des events oder 
       der vom Anwender gewählten Priorität ab
     - auf dem eventpanel steht der Titel des events und die verbleibenen Tage bis zum Eintreten des events
-    - durch das Klicken auf ein eventpanel wird dieses hervorgehoben, um es z.B. zu bearbeiten oder Details einzusehen
+    - durch das Klicken auf ein eventpanel wird dieses hervorgehoben (Detailansicht),
+      um es z.B. zu bearbeiten, Details einzusehen oder es zu löschen
 
 - ein kleiner, runder Button am unteren, rechten Rand dient als "add button"
     - der Anwender kann hier neue eventpanels erstellen 
-    - es öffnet sich ein Fenster zum Erstellen des panels, in welchem Einstellungen wie die Festlegung der Priorität  
-      vorgenommen werden
+    - es öffnet sich ein Fenster zum Erstellen des panels, in welchem Einstellungen 
+      vorgenommen werden (Titel, Typ, Prio., Verschiebbarkeit, Deadline, Beschreibung)
       
 - geplant ist ein Abstand zum Seitenrand links und rechts, evtl. weiß gehalten
-      
-  Beim Erstellen des Mock Ups für unsere Webanwendung müssen alle Ansichten berücksichtigt und eingebunden werden. Dazu zählen
-  auch die Fenster, welche sich beispielsweise durch das Klicken auf bestimmte Elemente auf der Seite wie z.B. dem "add button"
-  öffnen lassen. Die Funktionen werden von meinem Gruppenpartner via PHP geschaffen. 
+
+- geplante Komponenten:
+   - Slider
+   - Buttons
+   - Eingabefelder
+   - Checkbox
+   
+Beim Erstellen des Mock Ups für unsere Webanwendung müssen alle Ansichten berücksichtigt und eingebunden werden. Dazu zählen auch die Fenster, welche sich beispielsweise durch das Klicken auf bestimmte Elemente auf der Seite wie z.B. dem "add button" öffnen lassen. Die Funktionen werden von meinem Gruppenpartner via PHP geschaffen. 
   
   Vorgehensweise:
   HTML-Kurs (W3,Codecadamy)
