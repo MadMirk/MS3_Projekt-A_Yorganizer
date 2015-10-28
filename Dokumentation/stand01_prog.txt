@@ -1,2 +1,23 @@
 #28.10.2015
-In PHP müssen folgende Funktionen
+In PHP müssen folgende Funktionen implementiert werden:
+
+- erstellen von Datensätzen für die Orgz per Button
+  - Namen des Orgz festlegen
+  - Typ festlegen (Termin oder Aufgabe)
+  - Deadline festlegen
+  - Beschreibung festlegen
+  - eigene Priorität festlegen
+  - verschiebarer Termin ja/nein
+  - Prio-Index aus vorhanden Informationen berechnen
+  
+- Aufrufen einer Detailansicht eines Orgz über ein PopUp
+  - neues Fenster aufrufen
+  - detailierte Inforamtionen des Orgz laden
+  
+- Editierbarkeit der Datensätze über die Detailansicht
+  - vorhandene Informationen überschreiben
+- löschen von Datensätzen über Detailansicht
+
+- Ansichtwechsel per Slider
+  - Abfrage integrieren
+
