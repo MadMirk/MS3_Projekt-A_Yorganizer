@@ -1,7 +1,12 @@
 #28.10.2015
 In PHP müssen folgende Funktionen implementiert werden:
 
-- erstellen von Datensätzen für die Orgz per Button
+- laden der Grundinformationen beim Seitenaufruf
+  - Priorität der einzelnen EventPanels
+  - Namen der jeweiligen EventPanels
+  - verbleibende Zeit bis zur Deadline der jeweiligen EventPanels
+
+- erstellen von Datensätzen für die Orgz per Button (PopUp)
   - Namen des Orgz festlegen
   - Typ festlegen (Termin oder Aufgabe)
   - Deadline festlegen
