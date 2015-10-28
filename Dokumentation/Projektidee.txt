@@ -17,6 +17,6 @@ angedachter Projektumfang:
 
 Nebenziele:
 - Account-/Userverwaltung
-- Achievment-System fuer Nutzer
+- Achivement-System fuer Nutzer
 
 
