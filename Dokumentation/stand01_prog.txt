@@ -21,3 +21,7 @@ In PHP müssen folgende Funktionen implementiert werden:
 - Ansichtwechsel per Slider
   - Abfrage integrieren
 
+Vorgehensweise:
+- Grundlegende PHP Anwendungen anschaunen (Code-Beispiele)
+- Schnittstelle zwischen PHP und HTML verstehen (YouTube / stackoverflow)
+- einzelne Funktionen analysieren und in kleinere Funktionen übertragen
