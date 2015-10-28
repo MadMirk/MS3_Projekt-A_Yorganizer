@@ -2,8 +2,8 @@ Yorganizer
 **********
 
 Team bestehend aus:
-- Kevin Hoppe | Matr.-Nr.: 2208787
-- Mirko Greve | Matr.-Nr.: 2224807
+- Kevin Hoppe | Matr.-Nr.: 2208787 | Aufgabenbereich: HTML
+- Mirko Greve | Matr.-Nr.: 2224807 | Aufgabenbereich:: PHP
 
 Grundidee:
 Eine schlichte und einfache Webanwendung, bei der einem Aufgaben und Termine je nach Dringlichkeit als verschieden grosze Flaechen dargestellt werden.
