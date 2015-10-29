@@ -22,3 +22,10 @@ OR
 in PHP
 <?php error_reporting(E_ALL); OR ini_set('error_reporting','E_ALL'); ?>
 */
+
+//-----Concentation-----
+$day = 'Thursday';
+$date = 31;
+$year = 2015;
+<?php echo 'The date is '.$day.' '.$date.' '.$year;?> <--faster cause of echo ''
+<?php echo "The date is $day $date $year";?>
