@@ -27,5 +27,7 @@ in PHP
 $day = 'Thursday';
 $date = 31;
 $year = 2015;
-<?php echo 'The date is '.$day.' '.$date.' '.$year;?> <--faster cause of echo ''
+<?php echo 'The date is '.$day.' '.$date.' '.$year;?> <--faster than echo ""
 <?php echo "The date is $day $date $year";?>
+<?php $text = 'Hello'; $text .= ' World'; ?>
+
