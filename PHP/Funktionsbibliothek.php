@@ -1,9 +1,11 @@
-#Sammlung einfacher Funktionen und Mechanismen in PHP
-
-------Variablen------
+//Sammlung einfacher Funktionen und Mechanismen in PHP
+/*
+42
+*/
+//------Variablen------
 <?php
 $text = 'Hello World.';
 ?>
 
------einbinden von Variablen in HTML------
+//-----einbinden von Variablen in HTML------
 <input type="text" value="<?php echo $text; ?>">
