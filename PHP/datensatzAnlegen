@@ -11,10 +11,12 @@ $fixDate = $_POST['FesterTermin'];
 
 $finalPriority;
 
-echo $name;
+echo $name; 
+echo $description;
 
 ?>
 
+//Test HTML-CODE
 <form action="datensatzAnlegen.php" method="Post">
     <p>Name: <input type="text" name="Titel" /></p>
     <p>Description <input type="text" name="Beschreibung" /></p>
