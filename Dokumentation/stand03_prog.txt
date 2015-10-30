@@ -1,0 +1,18 @@
+#29.10. - 30.10.2015
+
+- PHP-Tutorials (10 Parts x 4-7min )
+
+Abgeschlossen:
+- Eingaben von HTML in PHP-Variablen speichern und nutzen (per POST)
+- Quellen:
+  - http://php.lernenhoch2.de/lernen/php-anfaenger/formulare-erstellen-und-auswerten/
+  - http://php.net/manual/de/tutorial.forms.php
+  
+in Arbeit:
+- Funktion: Differenz zweier Daten in Tage errechnen
+  --> durch eine mehrzahl an versch. Datentypen und dazugehörigen Funktionen für die Verwendung eines Datums,
+      ist eine längere Recherche erforderlich
+  --> bisher benutze Quellen: 
+    - http://stackoverflow.com/questions/676824/how-to-calculate-the-difference-between-two-dates-using-php
+    - http://www.schattenbaum.net/php/datum.php
+    
