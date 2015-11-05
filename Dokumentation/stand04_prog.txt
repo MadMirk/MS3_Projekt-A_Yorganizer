@@ -1,0 +1,40 @@
+#06.11.2015
+
+Abgeschlossen:
+- Funktion implentiert, welche die Differenz zweier Jahreszahlen errechnen kann. Die Differenz kann momentan
+  nur in Tagen ausgegeben werden. Die Funktion ist sehr rudimentär, aber sie macht genau dass was sie soll.
+
+- Eine Möglichkeit gefunden Variablen in mehreren PHP-Scripten zu verwenden. Sobald man eine 
+  Session startet, kann auf alle Variablen innerhalb dieser Session zugegriffen werden.
+  Man muss lediglich am Anfang des PHP Scripts die Session mit den Befehl SESSION_START(); starten.
+  
+In Arbeit:
+- Priorität anhand von noch verbleibenden Tagen, gewählte Gewichtung des Users und ob es sich 
+    um einen nicht verschiebbaren Termin handelt errechnen.
+- Die Skala wird erstmal nur von 1-5 gehen. 
+
+Zur Diskussion:
+- um die Vielzahl an Events dauerhaft abzuspeichern, könnte man unter Umständen eine schmale Datenbank erstellen.
+    Vorteil wäre, dass man mit mehr Daten arbeiten kann und Funktionen wie löschen, erstellen, editieren vermutlich
+    sogar einfacher umsetzen sind.
+   
+   Ich denke drei Tabellen reichen.
+   Tablle1 = "user"
+        user_ID [shortInt]
+        userName [String]
+        password [String]
+        
+    Tabelle2 = "events"
+        event_ID [shortInt]
+        eventName [String]
+        eventType [String] --> später eigene Tabelle (ID, Event-Typ)
+        eventDescription [String]
+        eventDeadline [date]
+        eventFixedDate [bool]
+        eventPersonalPriority [int]
+        eventPriority [int]
+        
+    Tabelle3 = "user_to_event"
+        UtE_ID
+        userID
+        eventID
