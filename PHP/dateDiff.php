@@ -5,8 +5,6 @@
     	$datediff = $now - $your_date;
 	 echo floor($datediff/(60*60*24));
     	//Quelle: http://stackoverflow.com/questions/2040560/finding-the-number-of-days-between-two-dates
-
-$datediff;
 ?>
 
 //Test HTML-CODE
