@@ -1,4 +1,4 @@
 #28.10.2015
 
-- Installation von XAMPP (lokale Testumgebung)
+- Installation von XAMPP in Windows (lokale Testumgebung)
 - PHP-Tutorials (11 Parts x 4-7min )
