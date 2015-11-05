@@ -1,6 +1,7 @@
 #06.11.2015
 
 Abgeschlossen:
+- LAMPP in Linux eingerichtet
 - Funktion implentiert, welche die Differenz zweier Jahreszahlen errechnen kann. Die Differenz kann momentan
   nur in Tagen ausgegeben werden. Die Funktion ist sehr rudimentär, aber sie macht genau dass was sie soll.
 
