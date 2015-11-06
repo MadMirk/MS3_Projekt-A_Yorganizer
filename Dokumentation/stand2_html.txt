@@ -1,0 +1,12 @@
+- erster Prototyp bezüglich der Anordnung von Elementen der Startseite
+https://gomockingbird.com/projects/tefx7y5/4gXVnC
+
+-Tutorial und Einarbeitung in html
+https://www.youtube.com/watch?v=g2taIe7ZFUA&list=PLUgMKRb1K9gCdJWiB4bDqHEPYxnBlyUf5 
+
+-Nachholen und Einarbeiten in html&css
+https://www.codecademy.com/KevinHoppe
+
+Nächster Schritt:
+erste Programmierung der Seite im Grundkonzept
+Voraussichtlicher Abschluss: 8.11.2015
