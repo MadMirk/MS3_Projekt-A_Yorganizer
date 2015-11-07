@@ -1,0 +1,71 @@
+body 
+{
+	text-align: center; background-color: white;
+}
+
+h1
+{
+  font-size:5.5em;
+  line-heigth:3.8em;
+  font-family: Georgia;
+  font-weight:100;
+  color: white;
+  margin:0em;
+}
+
+header
+{
+  background:black;
+  text-align:center; 
+}
+
+#slider
+{
+	text-align: center;
+	background-color: white;
+}
+
+p1
+{
+	font-family: Georgia;
+	font-size: 20px;
+	color: black;
+}
+p3
+{
+	font-family: Georgia;
+	font-size: 20px;
+	color: black;
+}
+p2
+{
+	font-family: Georgia;
+	font-size: 20px;
+	color: black;
+}
+footer 
+{
+  display: block
+  text-align:center;
+  background:black;
+  margin-top: 30em;
+}
+
+footer ul
+{
+ 	display: block;
+ 	width:100%;
+ 	max-width:980px;
+ 	text-align:lext;
+ 	margin:0px auto;  
+}
+
+footer ul li
+{
+  display:inline;
+  font-size:0.8em;
+  line-height:2.8em;
+  font-family:Georgia;
+  color:white;
+  
+  padding:0em 0.625em 0em 0.625em;
