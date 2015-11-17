@@ -1,0 +1,29 @@
+Bearbeitung des HTML&CSS-Files:
+
+-auf der Seite wurden "linkable buttons" implementiert
+- es führt ein button von der Hauptseite zur Seite für die Erstellung neuer events
+- Ziel: on-click auf den button "create" kann ein neues event erstellt werden
+- Umsetzung in php?
+- Header und Footer sind jetzt fixiert
+- HTML-Code in Header, Main, Aside & Footer eingeteilt, um Grundlage für semantisches Programmieren
+zu gewährleisten
+
+Quellen: 
+http://stackoverflow.com/questions/6667081/keep-a-line-of-text-as-a-single-line-wrap-the-whole-line-or-none-at-all
+http://stackoverflow.com/questions/15976245/how-to-stick-footer-element-at-the-bottom-of-the-page-html5-and-css3
+http://www.w3schools.com/cssref/pr_text_word-spacing.asp
+http://stackoverflow.com/questions/21149329/html5-hyperlink-and-new-tab
+http://diywpblog.com/linkable-buttons-with-html-5/
+
+Nächster Schritt: 
+Weitere Ausarbeitung des Erstellungsmenüs und
+Recherche, wie die erstellten events als panels auf der Hauptseite angezeigt werden können.
+Hierbei stellt sich die Frage, wie die events als einzelne Objekte auf der Website dargestellt bzw. erstellt werden können.
+Idee: framesplitting oder jedes event als eigenständigen Button erstellen, da diese ja auch klickbar sein sollen
+
+Zudem bin ich unzufrieden damit, dass das Erstellungsmenü in einem neuen Tab geöffnet wird. Zumindest ist das
+für einen Webbrowser unschön. Bei mobilen Geräten sieht das wieder anders aus. Allerdings werde ich versuchen,
+das Erstellungsmenü als pop-up-Fenster zu realisieren mit Hilfe von jQuery.
+http://www.learningjquery.com/2015/03/create-a-simple-popup-window-html5-dialog-tag
+
+
