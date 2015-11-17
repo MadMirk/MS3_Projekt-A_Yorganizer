@@ -1,0 +1,37 @@
+<!DOCTYPE	html>
+<html lang=de>
+	<head>
+		<link rel="stylesheet" href="style.css" type="text/css"	/>
+		<meta name="view port" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<meta charset="UTF-8">
+		<title>Yorganizer</title>
+	</head>
+	<index>
+	<body>
+	 	<header>
+			<h1>Yorganizer</h1>
+		</header>
+		<main>	
+		 	<section id=slider>
+		 		<input type="range" min="0" max="100" value="50" step="50" />
+		 	</section>
+		 	<div>
+	        <span>tasks both dates</span>
+	      	</div>
+		</main>
+		<aside>
+			<form action="eventmanager.html#newevent" target="_self" method="get">
+			<button>+</button>
+			</form>
+		</aside>
+	 	<footer>
+	      <ul>
+	        <li>&copy; 2015</li>
+	        <li>Kevin Hoppe</li>
+	        <li>Mirko Greve</li>
+	        <li>HAW Hamburg</li>
+	      </ul>
+        </footer>
+	</body>
+    </index>
+</html>
