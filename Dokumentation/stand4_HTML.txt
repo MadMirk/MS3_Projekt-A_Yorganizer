@@ -1,0 +1,16 @@
+Ich habe die wichtigsten Eingabeelemente eingefügt. Es gibt 2 Radiobuttons, durch die der Benutzer das event
+typisieren kann und dabei hat er die Auswahl zwischen "task" und "date".
+Auch der Name des events kann durch ein Eingabefeld eingetragen werden.
+Die Relevanz des events wird über einen Slider mit Stufe 1 bis 5 einzustellen sein.
+
+Nächste Schritte:
+Die Elemente müssen noch so programmiert werden, dass ihre Werte erfasst werden können, damit Mirko
+sie durch seine PHP-Teil verarbeiten kann. Zudem möchte ich das Pop-Up-Fenster evtl. in einem Pop-Up-Fenster öffnen.
+Die erstellen Events sollen als kleine panels auf der Hauptseite angezeigt werden. Die Größe und das Aussehen ist 
+abhängig vom Typ, der Relevanz und dem Namen. Im Erstellungsmenü muss eine Eingabemöglichkeit für das Datum erstellt werden.
+Ich denke dabei an eingebetteten Kalender bzw. einem sog. "date picker"!
+https://jqueryui.com/datepicker/
+Quellen:
+http://webkompetenz.wikidot.com/html-handbuch:radiobuttons-checkboxen
+http://www.w3schools.com/html/html_form_input_types.asp
+
