@@ -1,0 +1,82 @@
+body 
+{
+	text-align: center; 
+  background-color: white;
+}
+
+h1
+{
+  font-size:5.5em;
+  line-height:2em;
+  font-family: Georgia;
+  font-weight:100;
+  color: white;
+  margin:0em;
+}
+
+header
+{
+  background:black;
+  text-align:center; 
+}
+
+footer 
+{
+  text-align:center;
+  background:black;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+footer ul
+{
+  width:100%;
+  max-width:980px;
+  text-align:lext;
+  margin:0px auto;  
+}
+
+footer ul li
+{
+  display:inline;
+  font-size:0.8em;
+  line-height:2.8em;
+  font-family:Georgia;
+  color:white;
+  
+  padding:0em 0.625em 0em 0.625em;
+}
+
+evm main h2
+{
+  margin-top: 100px;
+}
+
+evm aside button
+{
+  margin-top: 100px;
+}
+
+index span
+{
+  margin-top: 100px;
+  display: inline;
+  font-family: Georgia;
+	font-size: 20px;
+	color: black;
+  font-weight: bold;
+  word-spacing: 40px;
+}
+
+index aside
+{
+  margin-top:-300px;
+}
+
+index #slider
+{
+  margin-top: 500px;
+  text-align: center;
+  background-color: white;
+}
