@@ -5,7 +5,7 @@ Die Relevanz des events wird über einen Slider mit Stufe 1 bis 5 einzustellen s
 
 Nächste Schritte:
 Die Elemente müssen noch so programmiert werden, dass ihre Werte erfasst werden können, damit Mirko
-sie durch seine PHP-Teil verarbeiten kann. Zudem möchte ich das Erstellungsmenü evtl. in einem Pop-Up-Fenster öffnen.
+sie durch seinen PHP-Teil verarbeiten kann. Zudem möchte ich das Erstellungsmenü evtl. in einem Pop-Up-Fenster öffnen.
 Die erstellten Events sollen als kleine panels auf der Hauptseite angezeigt werden. Die Größe und das Aussehen ist 
 abhängig vom Typ, der Relevanz und dem Namen. Im Erstellungsmenü muss eine Eingabemöglichkeit für das Datum erstellt werden.
 Ich denke dabei an einen eingebetteten Kalender bzw. einem sog. "date picker"!
