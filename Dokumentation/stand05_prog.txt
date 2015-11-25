@@ -1,0 +1,30 @@
+#025.11.2015
+
+Abgeschlossen:
+- Speichern der einzelnen Events in einer Text Datei. 
+  Dazu speichere ich alle Informationen in ein Array. 
+  Über den "file_put_contents" Befehl, in Verbindung mit einer for-Schleife, schreibe ich diese Informationen 
+  in die .txt-Datei. Ich trenne einzelne Informationen des Datensatzes mittels Sonderzeichen (|) und die einzelnen
+  Datensätze wiederum mit zwei Sonderzeichen (==).
+  
+- Auslesen der einzelnen Events aus einer Text Datei.
+  Dazu benutze ich den Befehl "Explode" und zwei foreach-Schleifen.
+  Als erstes Zerlege ich die einzelnen Datensätze mit Hilfe des Trennzeichens "==".
+  Die einzelnen Informationen innerhalb des Datensatzes trenne ich mit Hilfe des Trennzeichens "|".
+  
+- es wird eine fortlaufende ID für jedes Event vergeben. Dabei rufe ich einfach das readEvent.php Script auf
+  und überschreibe bei jedem Durchlauf die ID. Somit habe ich beim letzen Schleifendurchlauf die letze ID und
+  addiere einfach 1 hinzu. Keine schöne Lösung und nicht gerade perfomant, aber jut, erstmal läuft es :)
+  
+Überlegungen:
+- Um eine Editieren-Funktion einzubauen, müsste ich alle Events in ein Array-Speichern, das zu änderende Event laden,
+  ändern und speichern. Danach müsste ich die komplette Datei überschreiben.
+  Das ist sicherlich nicht die beste Methode und mit einer Datenbank am Ende wesentlich perfomanter
+  zu gestalten. Sollte aber im Zuge des Projekts ausreichen.
+  
+  
+  
+  
+  
+  Quelle:
+  http://www.php-einfach.de/php-tutorial/php-dateien2.php
