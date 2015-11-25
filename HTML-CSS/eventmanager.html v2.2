@@ -1,0 +1,52 @@
+<!DOCTYPE	html>
+<html lang=de>
+	<head>
+		<link rel="stylesheet" href="style.css" type="text/css"	/>
+		<meta name="view port" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<meta charset="UTF-8">
+		<title>eventmanager</title>
+	</head>
+	<evm>
+	<body>
+	 	<header>
+			<h1>Yorganizer</h1>
+		</header>
+		<main>	
+	    	<input type="radio" name="datetask" value=""> date
+            <input type="radio" name="datetask" value=""> task<br><br><br>
+             <form>
+				event name:<br><input type="text" name="eventname"><br><br><br>
+			 </form> 
+			 <form>
+			 	relevance:<br><input id="slider2" type="range" min="1" max="5" value="0" step="1" /><br><br><br>
+			 </form>
+			 <input type="date">
+
+			<script>
+			    if (!Modernizr.touch || !Modernizr.inputtypes.date) 
+			    {
+			        $('input[type=date]')
+			            .attr('type', 'text')
+			            .datepicker({
+			                // Consistent format with the HTML5 picker
+			                dateFormat: 'yy-mm-dd'
+			            });
+    			}
+			</script>
+		</main>
+		<aside>	
+	    	<form action="index.html" method="get">
+			<button class="createbutton">create</button>
+			</form>
+		</aside>
+	 	<footer>
+	      <ul>
+	        <li>&copy; 2015</li>
+	        <li>Kevin Hoppe</li>
+	        <li>Mirko Greve</li>
+	        <li>HAW Hamburg</li>
+	      </ul>
+        </footer>
+	</body>
+</evm>
+</html>
