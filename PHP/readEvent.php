@@ -16,9 +16,7 @@ foreach($datei AS $ausgabeDAT)
 		Fester Termin: $event[5]<br>
 		<br>
 		Noch ";
-		include 'dateDiff.php'; 
-		
-		echo " Tage!<br><br><br>";
+		include 'dateDiff.php'; 		
    }
    echo "<br><br>";
 }
