@@ -1,0 +1,24 @@
+Die Files "eventmanager.html","index.html","style.css" in einem Verzeichnis abspeichern 
+& zum Öffnen bitte Google Chrome benutzen!
+
+Ich habe nun einen Datepicker für das Auswählen des Datums für das Event implementiert.
+Dieser funktioniert (momentan) allerdings nur unter Opera oder Google Chrome.
+Zudem habe ich die reflinks der buttons sowie die buttons selbst bearbeitet.
+Die Radioboxen ließen sich beide anwählen. Dies habe ich behoben, indem ich ihnen den selben Namen gegeben habe
+und sie somit der gleichen Gruppe zugeordnet habe.
+
+Ich wollte den eventmanager gern in einem Pop-Up-Fenster öffnen lassen. Dazu habe ich allerdings
+nur Ansätze unter JavaScript gefunden. Ich werde nun versuchen auch eine geeignete Lösung ohne JS zu finden
+oder die Idee verwerfen. Die Lösung mit "_self" gefällt mir momentan auch. Sie bewirkt, dass der eventmanager 
+im gleichen Fenster geöffnet wird. Beim Erstellen des events springt der User dann wieder auf die Hauptseite, welche
+aus dem index.html besteht. Vielleicht wäre aber eine hervorhebende Hintergrundfarbe und ein plastisch wirkender Rand
+um die Eingabeelemente eine schöne Idee, um diese einzurahmen und das UI ersichtlicher zu gestalten.
+
+Als nächstes muss Mirko mit mir an der Verarbeitung des "values" von Input-Feldern, Slidern und Boxen arbeiten,
+damit schon einmal erste events erstellt werden können.
+
+Quellen:
+http://stackoverflow.com/questions/12939928/make-a-link-open-a-new-window-not-tab
+http://www.webcredible.com/blog/applying-css-forms/
+http://www.selfhtml5.org/2012-css3/10-praktische-css3-div-boxen-designs/
+http://tjvantoll.com/2012/06/30/creating-a-native-html5-datepicker-with-a-fallback-to-jquery-ui/
