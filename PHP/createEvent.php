@@ -14,15 +14,27 @@
 SESSION_START();
 if(isset($_POST['Titel'])) 
 {
-	$event = [
-	0 => $_POST['Titel'],
-	1 => $_POST['Beschreibung'],
-	2 => $_POST['Jahr']."-".(int)$_POST['Monat']."-".(int)$_POST['Tag'],
-	3 => $_POST['Priorität'],
-	4 => $_POST['FesterTermin'],
-	];
-
 	$file = 'events.txt';
+	
+	if(filesize($file)==0)
+	{
+		$ID = 0; 
+	}
+	else
+	{
+		include 'readEvent.php';
+		$ID = $tempID;
+	}	
+	
+	$event = [
+	0 => $ID,
+	1 => $_POST['Titel'],
+	2 => $_POST['Beschreibung'],
+	3 => $_POST['Jahr']."-".(int)$_POST['Monat']."-".(int)$_POST['Tag'],
+	4 => $_POST['Priorität'],
+	5 => $_POST['FesterTermin'],
+	];
+	
 	if(filesize($file)!=0)
 	{
 		file_put_contents($file, "==", FILE_APPEND); 
