@@ -15,6 +15,9 @@ Abgeschlossen:
 - es wird eine fortlaufende ID für jedes Event vergeben. Dabei rufe ich einfach das readEvent.php Script auf
   und überschreibe bei jedem Durchlauf die ID. Somit habe ich beim letzen Schleifendurchlauf die letze ID und
   addiere einfach 1 hinzu. Keine schöne Lösung und nicht gerade perfomant, aber jut, erstmal läuft es :)
+
+- DateDiff.php angepasst. Es wird nun erkannt, ob es noch Tage, Monate oder Jahre bis zur Deadline sind.
+  
   
 Überlegungen:
 - Um eine Editieren-Funktion einzubauen, müsste ich alle Events in ein Array-Speichern, das zu änderende Event laden,
