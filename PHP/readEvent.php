@@ -7,12 +7,18 @@ foreach($datei AS $ausgabeDAT)
 	foreach($zerlegung AS $ausgabeEVE)
 	{
 		$event = explode("|", $ausgabeEVE);
-
-		echo "Titel: <b>$event[0]</b><br>
-		Beschreibung: $event[1]<br>
-		Datum: $event[2]<br>
-		eigene Priorität: $event[3]<br>
-		Fester Termin: $event[4]<br>";
+		$tempID = $event[0]+1;
+		
+		echo "Titel: <b>$event[1]</b><br>
+		Beschreibung: $event[2]<br>
+		Datum: $event[3]<br>
+		eigene Priorität: $event[4]<br>
+		Fester Termin: $event[5]<br>
+		<br>
+		Noch ";
+		include 'dateDiff.php'; 
+		
+		echo " Tage!<br><br><br>";
    }
    echo "<br><br>";
 }
