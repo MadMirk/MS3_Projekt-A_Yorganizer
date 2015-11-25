@@ -23,7 +23,11 @@ if(isset($_POST['Titel']))
 	];
 
 	$file = 'events.txt';
-
+	if(filesize($file)!=0)
+	{
+		file_put_contents($file, "==", FILE_APPEND); 
+	}
+	
 	for($a = 0; $a < count($event); $a++)
 	{
 	   file_put_contents($file, $event[$a], FILE_APPEND); 
@@ -31,7 +35,8 @@ if(isset($_POST['Titel']))
 	   {
 		file_put_contents($file, "|", FILE_APPEND); 
 	   }
-	}
-	file_put_contents($file, "==", FILE_APPEND); 
+	}	
 }
 ?>
+
+
