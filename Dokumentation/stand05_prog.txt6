@@ -1,0 +1,16 @@
+#26.11.2015
+
+In Arbeit:
+- Editierfunktion
+  Um einzelnen Events zu editieren, muss ich diese in ein Mehrdimensionales Array transferieren. 
+  Dazu muss ich die Text-Datei auslesen und mittels zwei Schleifen die Informationen in ein Array schreiben.
+  
+  Problem:
+  - Array[x][y]
+  - momentan bekomme ich es nicht hin, das Array auf erster Ebene zu erweitern(x). 
+    $tempAllEvents[$a][0] = $event[0]; <-- damit fülle ich das Array. $a zähle ich nach jedem Durchlauf hoch.
+    Jedoch gibt es am Ende nur ein Element auf erster Ebene. D.h. $tempAllEvents[0][0] ist vorhanden,
+    aber $tempAllEvents[1][0] nicht. Zudem scheint mein §a nicht richtig zu zählen. 
+    
+  Lösung:
+  - foreach-Schleife nochmal näher betrachten, herausfinden, wie man mehrdimensionale Arrays erweitert.
