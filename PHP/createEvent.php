@@ -22,7 +22,7 @@ if(isset($_POST['Titel']))
 	}
 	else
 	{
-		include 'readEvent.php';
+		include 'loadEvents.php';
 		$ID = $tempID;
 	}	
 	
