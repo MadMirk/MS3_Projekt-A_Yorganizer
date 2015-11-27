@@ -2,7 +2,7 @@
 //FUNKTION --- Differenz zweier Daten in Tagen
 	
 	$now = time();
-    $deadline = strtotime($event[3]); //strtotime((int)$_POST['Jahr']."-".(int)$_POST['Monat']."-".(int)$_POST['Tag']);
+    $deadline = strtotime($tempAllEvents[$i][3]); //strtotime((int)$_POST['Jahr']."-".(int)$_POST['Monat']."-".(int)$_POST['Tag']);
     $leftDays = $now - $deadline;
     if(abs(floor($leftDays/(60*60*24))) >= 365)
     {
