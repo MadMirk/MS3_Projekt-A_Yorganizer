@@ -1,0 +1,19 @@
+#27.11.2015
+
+Abgeschlossen:
+  - loadEvents.php
+    Die Texxdatei kann nun komplett ausgelesen werden und alle Events werden in ein mehrdimensionales Array geschrieben.
+  - Anpassungen beim dateDiff.php und showEvents.php Script, aufgrund des loadEvents.php Scripts
+  
+In Arbeit:
+  - editEvent.php
+    Um ein Event nachträglich anzupassen, muss diese ersteinmal gelesen werden (loadEvents.php), 
+    dann in ein HTML-Formular geschrieben werden, Änderungen wieder in dem Array übernommen werden,
+    am Ende muss die komplette Textdatei neu geschrieben werden.
+    
+Problem:
+ - Übergabe von werten innerhalb des .php-Datei funktioniert nicht richtig.
+ 
+Lösung:
+  - Recherche Struktur von php/html mix code, Verhalten von Variablen.
+  - Alternative wäre es die textdatei nur zu verändern und nicht neu zu schreiben.
