@@ -88,9 +88,10 @@ evm main
 
 evm aside button
 {
-  margin-top: 100px;
+  margin-top: 60px;
 }
 
+}
 label + label
 {
    margin-left: 20px;
