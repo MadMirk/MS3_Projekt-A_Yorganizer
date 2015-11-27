@@ -91,6 +91,11 @@ evm aside button
   margin-top: 100px;
 }
 
+label + label
+{
+   margin-left: 20px;
+}
+
 index span
 {
   margin-top: 100px;
