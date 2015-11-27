@@ -30,6 +30,10 @@ header
   width: 100%;
 }
 
+header img
+{
+  max-width: 100%;
+}
 footer 
 {
   text-align:center;
@@ -83,18 +87,19 @@ footer ul li
 
 evm main 
 {
-  margin-top: 400px;
+  margin-top: 360px;
 }
 
 evm aside button
 {
-  margin-top: 60px;
+  margin-top: 45px;
 }
 
 label + label
 {
    margin-left: 20px;
 }
+
 
 index span
 {
