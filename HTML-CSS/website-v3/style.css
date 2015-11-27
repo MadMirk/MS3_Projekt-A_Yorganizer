@@ -1,0 +1,114 @@
+*
+{
+  margin:0;
+  padding:0;
+}
+
+body 
+{
+	text-align: center; 
+  background-color: white;
+}
+
+
+
+/*h1
+{
+  font-size:5.5em;
+  line-height:2em;
+  font-family: Georgia;
+  font-weight:100;
+  color: white;
+  margin:0em;
+}*/
+
+header
+{
+  text-align:center; 
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+footer 
+{
+  text-align:center;
+  background:black;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+footer ul
+{
+  width:100%;
+  max-width:980px;
+  text-align:center;
+  margin:0px auto;  
+}
+
+footer ul li
+{
+  display:inline;
+  font-size:0.8em;
+  line-height:2.8em;
+  font-family:Georgia;
+  color:white;
+  padding:0em 0.625em 0em 0.625em;
+}
+
+.createbutton
+{
+    background: none repeat scroll black;
+    border: medium none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    margin-bottom: 26px;
+    padding: 10px 10px;
+}
+
+.plusbutton
+{
+    background: none repeat scroll black;
+    border: medium none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    margin-bottom: 26px;
+    margin-right: -1500px;
+    padding: 12px 20px;
+    font-size: 30px;
+}
+
+evm main 
+{
+  margin-top: 400px;
+}
+
+evm aside button
+{
+  margin-top: 100px;
+}
+
+index span
+{
+  margin-top: 100px;
+  display: inline;
+  font-family: Georgia;
+	font-size: 20px;
+	color: black;
+  font-weight: bold;
+  word-spacing: 40px;
+}
+
+index aside
+{
+  margin-top:-300px;
+}
+
+index #slider
+{
+  margin-top: 850px;
+  width: 200px;
+}
