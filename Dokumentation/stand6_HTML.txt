@@ -1,0 +1,24 @@
+Am unteren Rand der Website befand sich eine Slidebar, die ich nun entfernt habe, indem ich die default browser settings
+in meinem css-file lösche.
+
+http://www.webdesigndev.com/delete-browser-default-settings-css/
+
+Der slider auf der Hauptseite wurde nun noch an die auswählbaren Attribute angepasst. Zudem wurde der vorherige 
+header auf beiden Seiten durch ein eigenes Banner samt Appnamen ersetzt.
+Der Plusbutton auf der Hauptseite befindet sich nun an der Stelle, an der nachher auch sein soll.
+
+Auf der eventmanager-Seite befindet sich nun zusätzlich auch ein Feld zur optionalen BEschreibung des events.
+Dies habe ich mit einer text area gelöst. Diese ist auf 250 Zeichen beschränkt und dementsprechen skaliert.
+
+http://www.w3schools.com/tags/tag_textarea.asp
+
+Ich habe nun auch einen der radiobuttons default als ausgewählt eingstellt, damit es dort nicht zu Problemen kommt,
+wenn zum Beispiel ein User dort keine Angaben macht. Zudem sind die Radiobuttons nun in einer gemeinsamen Gruppe und
+somit kann wie gewünscht nur einer der Buttons zur Zeit angewählt werden.
+
+Mirko und ich werden uns die nächsten Tage genauer mit dem Editieren und dem Händeln der eingegebenen Daten via PHP
+beschäftigen. Damit geht einher, dass demnächst auch endlich events erstellt werden können, welche auf der 
+Hauptseite nach Erstellen angezeigt werden. Welche Größe, Form, Farbe etc. diese haben, soll dann von den Eingaben
+des Users auf der eventmanagement-Seite abhängig sein.
+
+
