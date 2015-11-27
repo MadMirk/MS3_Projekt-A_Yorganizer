@@ -1,3 +1,6 @@
+ALS BROWSER BITTE GOOGLE CHROME VERWENDEN!
+Zudem zerballert github mir das tabbing &spacing des Codes. Also bitte nicht denken, ich würde so coden :)
+
 Am unteren Rand der Website befand sich eine Slidebar, die ich nun entfernt habe, indem ich die default browser settings
 in meinem css-file lösche.
 
