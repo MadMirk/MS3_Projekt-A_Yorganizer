@@ -1,9 +1,13 @@
 4.12.2015
 
 Abgeschlossen:
-Wir haben die bisher geschriebenen HTML-Skripte des eventmanagers mit den jeweiligen PHP-Skripten für die Funktionen createEvent 
-zusammengeführt! Dazu gehörte auch die Anpassung des datepickers und der textarea für optionale Beschreibung des events.
+Wir haben die bisher geschriebenen HTML-Skripte des eventmanagers mit den 
+jeweiligen PHP-Skripten für die Funktionen createEvent zusammengeführt! 
+Dazu gehörte auch die Anpassung des datepickers und der textarea für optionale Beschreibung des events.
 Hier mussten noch einige Variablen wie der Name des inputs festgelegt werden, um die Werte an PHP zu übergeben.
+>> http://www.w3schools.com/php/php_form_complete.asp
+Der Slider zum Festlegen der Relevanz zeigt nun den aktuellen Wert an.
+>> http://stackoverflow.com/questions/10004723/html5-input-type-range-show-range-value
 
 In Arbeit:
 Nachdem wir das eventmanager.html mit PHP editEvent.php zusammengeführt haben, steht nun die Aufgabe an das index.html und PHP
