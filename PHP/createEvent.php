@@ -1,18 +1,6 @@
-//Test HTML-CODE
-<form action="createEvent.php" method="Post">
-    <p>Name: <input type="text" name="Titel" /></p>
-    <p>Description <input type="text" name="Beschreibung" /></p>
-    <p>DeadlineTag: <input type="text" name="Tag" /></p>
-	<p>DeadlineMonat: <input type="text" name="Monat" /></p>
-	<p>DeadlineJahr: <input type="text" name="Jahr" /></p>
-    <p>Prioität: <input type="text" name="Priorität" /></p>
-    <p>festes Datum: <input type="text" name="FesterTermin" /></p>
-    <input type="submit" value="absenden" />
-</form>
-
 <?php
 SESSION_START();
-if(isset($_POST['Titel'])) 
+if(isset($_POST['eventname'])) 
 {
 	$file = 'events.txt';
 	
@@ -28,11 +16,12 @@ if(isset($_POST['Titel']))
 	
 	$event = [
 	0 => $ID,
-	1 => $_POST['Titel'],
-	2 => $_POST['Beschreibung'],
-	3 => $_POST['Jahr']."-".(int)$_POST['Monat']."-".(int)$_POST['Tag'],
-	4 => $_POST['Priorität'],
-	5 => $_POST['FesterTermin'],
+	1 => $_POST['eventname'],
+	2 => $_POST['description'],
+	3 => $_POST['date'],
+	4 => $_POST['sliderRelevance'],
+	5 => $_POST['fixedDate'],
+	6 => $_POST['datetask'],
 	];
 	
 	if(filesize($file)!=0)
@@ -49,6 +38,7 @@ if(isset($_POST['Titel']))
 	   }
 	}	
 }
+header('Location: http://localhost/index.html'); 
 ?>
 
 
