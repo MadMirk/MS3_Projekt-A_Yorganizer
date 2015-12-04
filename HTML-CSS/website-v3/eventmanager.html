@@ -12,15 +12,17 @@
 			<img src="images/yorganizer.jpg" alt="logo" />
 		</header>
 		<main>	
-	    	<label><input type="radio" name="datetask" value="dateOn" checked/>    date</label>
-            <label><input type="radio" name="datetask" value="taskOn"/>    task</label> <br><br><br>
-             <form>
+	    	<form action="createEvent.php" method="Post">
+		    	<label><input type="radio" name="datetask" value="dateOn" checked/>    date</label>
+	            	<label><input type="radio" name="datetask" value="taskOn"/>    task</label> <br><br><br>
 				event name:<br><input type="text" name="eventname"><br><br><br>
-			 </form> 
-			 <form>
-			 	relevance:<br><input id="slider2" type="range" min="1" max="5" value="0" step="1" /><br><br><br>
-			 </form>
-			 <input type="date">
+	
+			 	relevance:<br><input type="range" id="sliderRelevance" name="sliderRelevance" min="1" max="5" value="1" step="1"  
+			 	oninput="this.form.amount.value=this.value"/>
+				<output name="amount" for="sliderRelevance">1</output>
+				<br><br><br>
+			 
+			 <input type="date" name="date">
 
 			<script>
 			    if (!Modernizr.touch || !Modernizr.inputtypes.date) 
@@ -38,14 +40,13 @@
 					<label><input type="radio" name="fixedDate" value="fixedDateYes" checked/>     yes</label>
 					<label><input type="radio" name="fixedDate" value="fixedDateNo"/>     no</label><br>	
 			</p><br><br><br>
-			 <textarea placeholder="Describe the event here...[max 250]" rows="5" cols="50" maxlength="250"></textarea> 
-		
+			 <textarea name="description" placeholder="Describe the event here...[max 250]" rows="5" cols="50" maxlength="250"></textarea> 
+		    
 		</main>
 		<aside>	
-	    	<form action="index.html" method="get">
 			<button class="createbutton">create</button>
-			</form>
 		</aside>
+		    </form>
 	 	<footer>
 	      <ul>
 	        <li>&copy; 2015</li>
