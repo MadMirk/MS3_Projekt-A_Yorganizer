@@ -40,5 +40,3 @@ if(isset($_POST['eventname']))
 }
 header('Location: http://localhost/index.html'); 
 ?>
-
-
