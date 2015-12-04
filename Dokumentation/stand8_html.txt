@@ -1,0 +1,23 @@
+4.12.2015
+
+Abgeschlossen:
+Wir haben die bisher geschriebenen HTML-Skripte des eventmanagers mit den jeweiligen PHP-Skripten für die Funktionen createEvent 
+zusammengeführt! Dazu gehörte auch die Anpassung des datepickers und der textarea für optionale Beschreibung des events.
+Hier mussten noch einige Variablen wie der Name des inputs festgelegt werden, um die Werte an PHP zu übergeben.
+
+In Arbeit:
+Nachdem wir das eventmanager.html mit PHP editEvent.php zusammengeführt haben, steht nun die Aufgabe an das index.html und PHP
+miteinander zu verbinden. Es soll nun mithilfe des "create"-Buttons auf der eventmanager-Seite ein neues event 
+erstellt und auf der index.html-Seite angezeigt werden. Dafür muss ein kluges System ausgearbeitet werden, um die Seite 
+dynamisch, effizient, übersichtlich und vorallem gutaussehend sowie sich selbsterklärend zu füllen. 
+Die events können bearbeitet & gelöscht werden und es kommen neue hinzu. Somit muss eine dynamische Anordnung der events
+vollzogen werden. 
+
+Ein weiteres Problem ist, dass die Elemente auf der Website aus dem Fenster veschwinden, wenn man dieses kleiner skaliert.
+Dies wird wohl daran liegen, dass ich mit Pixelwerten gearbeitet habe. Ich werde diese durch Prozentwerte ersetzen und die Elemente 
+somit abhängig von der Auflösung des Bildschirms anordnen, um dies zu verhindern.
+ 
+Idee: 
+Wir benutzen eine Schleife, um die einzelnen Eigenschaften der events aus dem Array in PHP auszulesen und zu erstellen.
+Dabei werden die Positionen & Größen der bisherigen events und der neuerstellten events zueinander eine wichtige Rolle spielen.
+
