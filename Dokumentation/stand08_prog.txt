@@ -1,0 +1,28 @@
+#04.12.2015
+
+Abgeschlossen:
+  - Zusammenführung des HTML-Codes vom Eventmanager, welches neues Events erstellt, mit den jeweiligen 
+  PHP-Sript (createEvent) HURRAY!
+  
+In Arbeit:
+  - die nächste große Aufgabe ist es nun, die einzelnen Events auf der index.html Seite anzuzeigen. 
+ Das schwierigste an dieser Aufgabe ist es, einen Algorythmus zu finden, der die verschieden großen
+ Kacheln in einer uns angenehmen Form anordnet. Dies muss dynamisch sein, da sich jeder Zeit die 
+ Priorität der einzelnen Events ändern kann, sowie neue Events hinzukomen und Alte verschwinden.
+ 
+ Angedacht ist eine Lösung per Schleife, welche die Postion der einzelnen Kacheln aufgrund der Priorität (also 
+ Größe) ermittelt und direkt als HTML-CODE ausgibt.
+ 
+ 
+weitere Aufgaben:
+  - weiterhin editEvent.php
+    Um ein Event nachträglich anzupassen, muss diese ersteinmal gelesen werden (loadEvents.php), 
+    dann in ein HTML-Formular geschrieben werden, Änderungen wieder in dem Array übernommen werden,
+    am Ende muss die komplette Textdatei neu geschrieben werden.
+    Problem:
+      - Übergabe von werten innerhalb des .php-Datei funktioniert nicht richtig.
+    Lösung:
+      - Recherche Struktur von php/html mix code, Verhalten von Variablen.
+      - Alternative wäre es die textdatei nur zu verändern und nicht neu zu schreiben.
+      
+  - Sicherheitsmechanismen, wie das vermeiden von doppelten Events, oder leeren Eingaben.
