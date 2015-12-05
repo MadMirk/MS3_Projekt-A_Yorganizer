@@ -1,25 +1,28 @@
 <?php
-//FUNKTION --- Differenz zweier Daten in Tagen
+//FUNKTION --- Differenz zweier Daten in Tagen/Monaten/Jahren
 	
 	$now = time();
-    $deadline = strtotime($tempAllEvents[$i][3]); //strtotime((int)$_POST['Jahr']."-".(int)$_POST['Monat']."-".(int)$_POST['Tag']);
+    $deadline = strtotime($tempAllEvents[$i][3]);
     $leftDays = $now - $deadline;
+    
     if(abs(floor($leftDays/(60*60*24))) >= 365)
-    {
-		echo round(abs(floor($leftDays/(60*60*24)))/365,2);
-		echo " Jahre!<br><br><br>";
+    {		
+		//echo round(abs(floor($leftDays/(60*60*24)))/365,2)." Jahre!.";		
+		$leftDays = abs(floor($leftDays/(60*60*24)));
 	
 	}
     elseif(abs(floor($leftDays/(60*60*24))) >= 30)
     {
-		echo round(abs(floor($leftDays/(60*60*24)))/30,2);
-		echo " Monate!<br><br><br>";
+		//echo round(abs(floor($leftDays/(60*60*24)))/30,2)." Monate!.";
+		
+		$leftDays=abs(floor($leftDays/(60*60*24)));
 	}
 	
 	else
 	{
-		echo abs(floor($leftDays/(60*60*24)));
-		echo " Tage!<br><br><br>";
+		//echo abs(floor($leftDays/(60*60*24)))." Tage!.";
+		
+		$leftDays=abs(floor($leftDays/(60*60*24)));
 	}
     	//Quelle DateDiff: http://stackoverflow.com/questions/2040560/finding-the-number-of-days-between-two-dates
     	//Quelle Variablen in mehreren voneinander unabhängigen PHP Scripten aurfurbar machen:
