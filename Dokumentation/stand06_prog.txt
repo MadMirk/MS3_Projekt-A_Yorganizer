@@ -14,3 +14,5 @@ In Arbeit:
     
   Lösung:
   - foreach-Schleife nochmal näher betrachten, herausfinden, wie man mehrdimensionale Arrays erweitert.
+
+  

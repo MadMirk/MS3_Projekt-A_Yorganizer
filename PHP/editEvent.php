@@ -104,3 +104,16 @@ if(isset($_POST['eventname']))
 }
 
 ?>
+
+<!--
+=== Feedback Alpers, Dez 11 ===
+
+Bitte passen Sie hier auf, dass Sie sich keine Fehler einfangen, weil Sie am Anfang der Datei den
+Kopf eines HTML-Dokuments haben.
+
+Außerdem sollte Ihr Kommilitone den HTML-Teil nochmal überarbeiten. Das ist so nur schlecht lesbar
+und teilweise auch nicht sinnvoll. (Beispielsweise können wir bei dieser Variante den <label>-Container ganz
+weglassen.)
+
+=== Feedback Alpers, Ende ===
+-->

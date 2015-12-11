@@ -31,3 +31,10 @@ Abgeschlossen:
   
   Quelle:
   http://www.php-einfach.de/php-tutorial/php-dateien2.php
+
+=== Feedback Alpers, Dez 11 ===
+
+Vollkommen richtig gedacht. Das ist schon deutlich mehr, als für das Projekt nötig. (Gemeint ist Ihr
+workaround über das Speichern in einer Datei.)
+
+=== Feedback Alpers, Ende ===

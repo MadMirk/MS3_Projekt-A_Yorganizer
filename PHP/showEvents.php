@@ -24,3 +24,11 @@
 		Priorität: ".$tempAllEvents[$i][7]."<br><br>";	
 	}	
 ?>
+
+<!--
+=== Feedback Alpers, Dez 11 ===
+
+Sehr übersichtlich strukturiert und gute Nutzung von externem Code in lokalem Kontext.
+
+=== Feedback Alpers, Ende ===
+-->

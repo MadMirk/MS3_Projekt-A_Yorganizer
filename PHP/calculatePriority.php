@@ -62,3 +62,11 @@
 	 * + ownPriority
 	 */
 ?>		
+
+<!--
+=== Feedback Alpers, Dez 11 ===
+
+Sehr gut, dass Sie hier den switch/case verwendet haben.
+
+=== Feedback Alpers, Ende ===
+-->

@@ -28,3 +28,14 @@
     	//Quelle Variablen in mehreren voneinander unabhängigen PHP Scripten aurfurbar machen:
     	//http://www.php-kurs.info/tutorial-variablen_uebergeben_include.html
 ?>
+
+<!--
+=== Feedback Alpers, Dez 11 ===
+
+Wenn Sie solche einfachen Berechnungen aus anderen Quellen übernehmen, brauchen Sie die
+Quellen nicht zu benennen. 
+
+Hier wie in den anderen PHP-Teilen gilt: Gut, schön übersichtlich.
+
+=== Feedback Alpers, Ende ===
+-->

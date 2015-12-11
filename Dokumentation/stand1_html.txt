@@ -35,8 +35,11 @@ Nach genauer Planung des Aufbaus unserer Webanwendung sind wir zu dem Entschluss
 Beim Erstellen des Mock Ups für unsere Webanwendung müssen alle Ansichten berücksichtigt und eingebunden werden. Dazu zählen auch die Fenster, welche sich beispielsweise durch das Klicken auf bestimmte Elemente auf der Seite wie z.B. dem "add button" öffnen lassen. Die Funktionen werden von meinem Gruppenpartner via PHP geschaffen. 
   
   Vorgehensweise:
-  HTML-Kurs (W3,Codecadamy)
+  HTML-Kurs (W3,Codecadamy) 
+  // Feedback Alpers, Dez 11: Wozu? Alles, was Sie davon benötigen ist im Skript enthalten und wird in der Veranstaltung besprochen.
+  // Außerdem wird bei Codecadamy zumindest in einem Fall nicht eindeutig zwischen HTML 4.01 und 5 unterschieden.
   Einarbeitung in CSS
   Grundlegende Anordnung sowie Design festlegen 
+  // Feedback Alpers, Dez 11: Design ist für dieses Projekt irrelevant. Würden Sie Mediendesign studieren, wäre das anders.
   -> Stichwort Mock Up
   

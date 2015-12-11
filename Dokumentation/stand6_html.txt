@@ -24,4 +24,14 @@ beschäftigen. Damit geht einher, dass demnächst auch endlich events erstellt w
 Hauptseite nach Erstellen angezeigt werden. Welche Größe, Form, Farbe etc. diese haben, soll dann von den Eingaben
 des Users auf der eventmanagement-Seite abhängig sein.
 
+=== Feedback Alpers, Dez 11 ===
 
+NEIN! Eine der zentralen Anforderungen an das Projekt ist, dass es systemunabhängig sein muss.
+Wenn Sie irgendwelche Webressourcen nutzen, um einen Webanwendung zu entwickeln, die genau diesen Kriterium
+nicht entsprechen, dann haben Sie eine zentrale Anforderung des Projekts nicht erfüllt.
+
+Weiterhin zerballert Github gar nichts. Github ist eine Art Webspace, in dem Sie Dateien unter Versionsverwaltung stellen können.
+Wenn Sie die Dateien über eine GUI in Github laden bzw. von dort wieder herunter laden, dann mag das anders sein,
+aber das hat nichts mit Github zu tun.
+
+=== Feedback Alpers, Ende ===

@@ -26,4 +26,9 @@ für einen Webbrowser unschön. Bei mobilen Geräten sieht das wieder anders aus
 das Erstellungsmenü als pop-up-Fenster zu realisieren mit Hilfe von jQuery.
 http://www.learningjquery.com/2015/03/create-a-simple-popup-window-html5-dialog-tag
 
+=== Feedback Alpers, Dez 11 ===
 
+Die Struktur der Seiten wird in HTML entwickelt. jQuery gehört zu JS und hat nichts mit HTML zu tun.
+Als HTML'er steht Ihnen jQuery deshalb nicht zur Verfügung.
+
+=== Feedback Ende ===

@@ -7,22 +7,69 @@
 		<title>eventmanager</title>
 	</head>
 	<evm>
+	
+	<!-- 
+	=== Feedback Alpers, Dez 11 ===
+	
+	Was für ein Container ist das?
+	
+	=== Feedback Alpers, Ende ===
+	-->
+	
 	<body>
 	 	<header>
 			<img src="images/yorganizer.jpg" alt="logo" />
 		</header>
 		<main>	
 	    	<form action="createEvent.php" method="Post">
+			<!-- 
+			=== Feedback Alpers, Dez 11 ===
+			
+			Damit die Daten an das PHP-Programm übertragen werden können muss diese sich im gleichen
+			Verzeichnis wie das HTML-Dokument befinden.
+			
+			=== Feedback Alpers, Ende ===
+			-->
+			
+			
+			<!--
+			=== Feedback Alpers, Dez 11 ===
+			
+			Das folgende ist leider kaum lesbar. Bitte achten Sie darauf,
+			das Elemente, die untereinander bzw. auf einer Hierarchiebene angeordnet sind
+			auch gleich weit eingerückt sind.
+			
+			=== Feedback Alpers, Ende ===
+			-->
 		    	<label><input type="radio" name="datetask" value="dateOn" checked/>    date</label>
-	            	<label><input type="radio" name="datetask" value="taskOn"/>    task</label> <br><br><br>
+				
+				<!--
+				=== Feedback Alpers, Dez 11 ===
+				
+				Bitte sehen Sie sich im Skript nochmal an, wie <label>-Container zu anderen Containern
+				hinzugefügt werden. So kann kein Browser erkennen, dass das Label zum jeweiligen input gehört.
+				
+				=== Feedback Alpers, Ende ===
+				-->
+					<label><input type="radio" name="datetask" value="taskOn"/>    task</label> <br><br><br>
 				event name:<br><input type="text" name="eventname"><br><br><br>
 	
 			 	relevance:<br><input type="range" id="sliderRelevance" name="sliderRelevance" min="1" max="5" value="1" step="1"  
 			 	oninput="this.form.amount.value=this.value"/>
+				
+				
 				<output name="amount" for="sliderRelevance">1</output>
 				<br><br><br>
 			 
-			 <input type="date" name="date">
+			<input type="date" name="date">
+			
+			<!--
+			=== Feedback Alpers, Dez 11 ===
+			
+			Wozu dieses Script?
+			
+			=== Feedback Alpers, Ende ===
+			-->
 
 			<script>
 			    if (!Modernizr.touch || !Modernizr.inputtypes.date) 
@@ -43,6 +90,14 @@
 			 <textarea name="description" placeholder="Describe the event here...[max 250]" rows="5" cols="50" maxlength="250"></textarea> 
 		    
 		</main>
+		
+		<!--
+		=== Feedback Alpers, Dez 11 ===
+		
+		Bitte nutzen Sie für alle interaktiven Flächen Container vom Typ input.
+		
+		=== Feedback Alpers, Ende ===
+		-->
 		<aside>	
 			<button class="createbutton">create</button>
 		</aside>
@@ -58,3 +113,27 @@
 	</body>
 </evm>
 </html>
+
+<!--
+=== Feedback Alpers, Dez 11 ===
+
+Bitte konzentrieren Sie sich darauf, in HTML ausschließlich an der Struktur der
+anzuzeigenden Elemente der Anwendung zu arbeiten. Design ist etwas
+für Designer. Als Media Systems Studierender sollte es Ihr Ziel sein, hochwertigen Code zu implementieren.
+Hochwertig heißt unter anderem: Leicht lesbar und übersichtlich.
+
+Leider ist bereits dieses noch relativ kurze HTML-Dokument annähernd unlesbar.
+
+Das liegt unter anderem daran, dass Sie wie die meisten Einsteiger versuchen mit <br>-Containern ein bestimmtes Layout
+zu erzwingen. <br> hat ausschließlich als Zeilenumbruch innerhalb eines Formulars etwas zu suchen. Und auch dann nur
+einmal.
+
+Außerdem dürfte der Grund darin bestehen, dass Sie wie alle nicht-Informatiker sich aus verschiedensten Quellen
+im Netz zuerst irgendwelche Lösungen zusammen gesammelt haben und dann geflucht haben, dass das nicht so aussieht,
+wie Sie es sich wünschen, anstatt das zu tun, wozu HTML da ist: Eine Struktur zu definieren und die Funktionalität 
+per PHP, JS oder einer anderen Controllersprache zu definieren.
+
+Um gute Software zu entwickeln, müssen Sie aber zuerst lernen, strukturiert zu arbeiten.
+
+=== Feedback Alpers, Ende ===
+-->

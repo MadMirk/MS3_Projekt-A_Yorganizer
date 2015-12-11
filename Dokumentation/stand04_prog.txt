@@ -39,3 +39,9 @@ Zur Diskussion:
         UtE_ID
         userID
         eventID
+
+=== Feedback Alpers, Dez 11 ===
+
+Gut gedacht, aber da Sie ja leider niemanden im Team haben, der den DB-Anteil übernimmt sollten Sie das vorerst außen vor lassen.
+
+=== Feedback Alpers, Ende ===

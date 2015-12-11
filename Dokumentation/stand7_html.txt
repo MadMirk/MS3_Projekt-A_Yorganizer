@@ -25,3 +25,14 @@ Idee:
 Wir benutzen eine Schleife, um die einzelnen Eigenschaften der events aus dem Array in PHP auszulesen und zu erstellen.
 Dabei werden die Positionen & Größen der bisherigen events und der neuerstellten events zueinander eine wichtige Rolle spielen.
 
+=== Feedback Alpers, Dez 11 ===
+
+Ja, dieses Problem mit dem Verschwinden von Elementen gehört zu den Themen, mit denen Sie im Bereich systemunabhängiger Webanwendungen
+häufig zu kämpfen haben werden, da manche User Displays mit Auflösungen unter 1024 x 800 verwenden. Der Lösungsansatz ist gut.
+
+Was Ihre Anmerkung bezüglich der dynamischen Anordnung angeht: Das ist eher unter Designaspekten zu verbuchen und damit für das
+Projekt irrelevant; relevant ist, dass Sie eine Webanwendung mit Interaktion erstellen. Genauer gesagt: Für Sie ist relevant, dass
+Ihre HTML-Dokumente HTML 5 verwenden und dabei insbesondere, dass Sie Dinge wie <div>-Wüsten vermeiden, die unter HTML 4.01
+üblich waren.
+
+=== Feedback Alpers, Ende ===

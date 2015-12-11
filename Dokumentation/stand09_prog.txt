@@ -27,3 +27,22 @@ weitere Aufgaben:
       - Alternative wäre es die textdatei nur zu verändern und nicht neu zu schreiben.
       
   - Sicherheitsmechanismen, wie das vermeiden von doppelten Events, oder leeren Eingaben.
+
+=== Feedback Alpers, Dez 11 ===
+
+Bitte lassen Sie solche Design-Aspekte außen vor. Es ist sicherlich nett, wenn eine Webanwendung
+Elemente in Abhängigkeit von deren Priorität unterschiedlich skaliert, aber stellen Sie solche Aspekte
+bitte hinten an.
+
+Viel wichtiger ist, dass Sie lernen, zunächst grundlegende Aufgaben zu lösen. (Was Sie mit dem Speichern
+und Lesen in Dateien ja beispielsweise schon einmal erreicht haben.) Dann sollten Sie sich darin üben,
+als Teamplayer eine Aufgabe eng verzahnt mit anderen Kollegen zu erledigen. (Das wäre hier das Entwickeln
+von PHP-Code, der direkt mit einer Komponente der Nutzeroberfläche (also in diesem Fall des HTML-Dokuments)
+verknüpft ist, sodass es später leicht ist, das gewünschte Verhalten anzupassen.
+
+Ein weitere Aspekt, den Sie sich parallel dazu angewöhnen sollten besteht darin, Code zu entwickeln,
+der auch von Personen leicht erfasst werden kann, die in das Team integriert werden. Nichts in schlimmer als
+wenn Teammitglieder Code entwickeln, den anschließend niemand verstehen kann, ohne sich zunächst stundenlang damit zu
+beschäftigen.
+
+=== Feedback Alpers, Ende ===
