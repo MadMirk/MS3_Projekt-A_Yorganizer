@@ -10,18 +10,6 @@ body
   background-color: #fdf0cb;
 }
 
-
-
-/*h1
-{
-  font-size:5.5em;
-  line-height:2em;
-  font-family: Georgia;
-  font-weight:100;
-  color: white;
-  margin:0em;
-}*/
-
 header
 {
   text-align:center; 
@@ -61,17 +49,6 @@ footer ul li
   padding:0em 0.625em 0em 0.625em;
 }
 
-.createbutton
-{
-    background: none repeat scroll black;
-    border: medium none;
-    border-radius: 5px;
-    color: white;
-    cursor: pointer;
-    margin-bottom: 26px;
-    padding: 10px 10px;
-}
-
 .plusbutton
 {
     background: none repeat scroll black;
@@ -85,23 +62,12 @@ footer ul li
     font-size: 30px;
 }
 
-evm main 
+main 
 {
   margin-top: 360px;
 }
 
-evm aside button
-{
-  margin-top: 45px;
-}
-
-label + label
-{
-   margin-left: 20px;
-}
-
-
-index span
+span
 {
   margin-top: 100px;
   display: inline;
@@ -112,13 +78,8 @@ index span
   word-spacing: 40px;
 }
 
-index aside
+#slider
 {
-  margin-top:-300px;
-}
-
-index #slider
-{
-  margin-top: 850px;
+  margin-top: 350px;
   width: 200px;
 }
