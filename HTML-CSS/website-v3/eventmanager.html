@@ -3,62 +3,62 @@
 	
 		<head>
 			<link rel="stylesheet" href="style.css" type="text/css"	/>
-		   	<meta name="view port" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+			<meta name="view port" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 			<meta charset="UTF-8">
 			<title>eventmanager</title>
 		</head>
-				<body>
-	  					<header>
-	    							<img src="images/yorganizer.jpg" alt="logo" />
-	  					</header>
-	  					<main>	
-	    							<form action="createEvent.php" method="Post">
-	    								<fieldset>
-											<legend>event settings</legend>
-											<input type="radio" name="datetask" id="date" value="dateOn" checked/>
-											<label for="date">date</label>
-											<input type="radio" name="datetask" íd="task" value="taskOn"/>
-											<label for="date">task</label>
-											<br>
+			<body>
+	  			<header>
+	    				<img src="images/yorganizer.jpg" alt="logo" />
+	  			</header>
+	  			<main>	
+	    			        <form action="createEvent.php" method="Post">
+	    				        <fieldset>
+							<legend>event settings</legend>
+							<input type="radio" name="datetask" id="date" value="dateOn" checked/>
+							<label for="date">date</label>
+							<input type="radio" name="datetask" íd="task" value="taskOn"/>
+							<label for="date">task</label>
+							<br>
 												  
-											<label for="eventname">event name:</label>
-											<input type="text" name="eventname">
-											<br>		
+							<label for="eventname">event name:</label>
+							<input type="text" name="eventname">
+							<br>		
 												  
-											<label for="sliderRelevance">relevance:</label>
-											<input type="range" id="sliderRelevance" name="sliderRelevance" min="1" max="5" value="1" step="1"  
-											oninput="this.form.amount.value=this.value"/>
-											<output name="amount" for="sliderRelevance">1</output>
-											<br>
+							<label for="sliderRelevance">relevance:</label>
+							<input type="range" id="sliderRelevance" name="sliderRelevance" min="1" max="5" value="1" step="1"  
+							oninput="this.form.amount.value=this.value"/>
+							<output name="amount" for="sliderRelevance">1</output>
+							<br>
+
+   							<label for="date">set date:</label>
+							<input type="date" name="date">
+							<br>	    
 												  
-          										<label for="date">set date:</label>
-											<input type="date" name="date">
-											<br>	    
+							<p>fixed date?
+							<input type="radio" name="fixedDate" id="fdYes" value="fixedDateYes" checked/>
+							<label for="fdYes">yes</label>
+							<input type="radio" name="fixedDate" id="fdNo" value="fixedDateNo"/>
+							<label for="fdNo">no</label>
+							</p>
+							<br>										
 												  
-											<p>fixed date?
-											   <input type="radio" name="fixedDate" id="fdYes" value="fixedDateYes" checked/>
-											   <label for="fdYes">yes</label>
-											   <input type="radio" name="fixedDate" id="fdNo" value="fixedDateNo"/>
-											   <label for="fdNo">no</label>
-											</p>
-											<br>										
-												  
-											<textarea name="description" placeholder="Describe the event here...[max 250]" rows="5" cols="50" maxlength="250"></textarea>
-											<br>
-												  
-										<input type="submit" name="createbutton" value="create!"/> 
-										</fieldset>	
-								</form>								    
-	  					</main>
-						<footer>
-								    	<ul>
-									    <li>&copy; 2015</li>
-									    <li>Kevin Hoppe</li>
-									    <li>Mirko Greve</li>
-									    <li>HAW Hamburg</li>
-									</ul>
-						</footer>
-   			 	</body>
+							<textarea name="description" placeholder="Describe the event here...[max 250]" rows="5" cols="50" maxlength="250"></textarea>
+							<br>
+
+						<input type="submit" name="createbutton" value="create!"/> 
+						</fieldset>	
+					</form>								    
+	  			</main>
+				<footer>
+						<ul>
+							<li>&copy; 2015</li>
+							<li>Kevin Hoppe</li>
+							<li>Mirko Greve</li>
+							<li>HAW Hamburg</li>
+						</ul>
+				</footer>
+   			</body>
 </html>
 
 <!--
