@@ -1,117 +1,64 @@
 <!DOCTYPE	html>
 <html lang=de>
-	<head>
-		<link rel="stylesheet" href="style.css" type="text/css"	/>
-		<meta name="view port" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-		<meta charset="UTF-8">
-		<title>eventmanager</title>
-	</head>
-	<evm>
 	
-	<!-- 
-	=== Feedback Alpers, Dez 11 ===
-	
-	Was für ein Container ist das?
-	
-	=== Feedback Alpers, Ende ===
-	-->
-	
-	<body>
-	 	<header>
-			<img src="images/yorganizer.jpg" alt="logo" />
-		</header>
-		<main>	
-	    	<form action="createEvent.php" method="Post">
-			<!-- 
-			=== Feedback Alpers, Dez 11 ===
-			
-			Damit die Daten an das PHP-Programm übertragen werden können muss diese sich im gleichen
-			Verzeichnis wie das HTML-Dokument befinden.
-			
-			=== Feedback Alpers, Ende ===
-			-->
-			
-			
-			<!--
-			=== Feedback Alpers, Dez 11 ===
-			
-			Das folgende ist leider kaum lesbar. Bitte achten Sie darauf,
-			das Elemente, die untereinander bzw. auf einer Hierarchiebene angeordnet sind
-			auch gleich weit eingerückt sind.
-			
-			=== Feedback Alpers, Ende ===
-			-->
-		    	<label><input type="radio" name="datetask" value="dateOn" checked/>    date</label>
-				
-				<!--
-				=== Feedback Alpers, Dez 11 ===
-				
-				Bitte sehen Sie sich im Skript nochmal an, wie <label>-Container zu anderen Containern
-				hinzugefügt werden. So kann kein Browser erkennen, dass das Label zum jeweiligen input gehört.
-				
-				=== Feedback Alpers, Ende ===
-				-->
-					<label><input type="radio" name="datetask" value="taskOn"/>    task</label> <br><br><br>
-				event name:<br><input type="text" name="eventname"><br><br><br>
-	
-			 	relevance:<br><input type="range" id="sliderRelevance" name="sliderRelevance" min="1" max="5" value="1" step="1"  
-			 	oninput="this.form.amount.value=this.value"/>
-				
-				
-				<output name="amount" for="sliderRelevance">1</output>
-				<br><br><br>
-			 
-			<input type="date" name="date">
-			
-			<!--
-			=== Feedback Alpers, Dez 11 ===
-			
-			Wozu dieses Script?
-			
-			=== Feedback Alpers, Ende ===
-			-->
-
-			<script>
-			    if (!Modernizr.touch || !Modernizr.inputtypes.date) 
-			    {
-			        $('input[type=date]')
-			            .attr('type', 'text')
-			            .datepicker({
-			                // Consistent format with the HTML5 picker
-			                dateFormat: 'yy-mm-dd'
-			            });
-    			}
-			</script><br><br><br>
-			
-			<p>fixed date?<br><br>
-					<label><input type="radio" name="fixedDate" value="fixedDateYes" checked/>     yes</label>
-					<label><input type="radio" name="fixedDate" value="fixedDateNo"/>     no</label><br>	
-			</p><br><br><br>
-			 <textarea name="description" placeholder="Describe the event here...[max 250]" rows="5" cols="50" maxlength="250"></textarea> 
-		    
-		</main>
-		
-		<!--
-		=== Feedback Alpers, Dez 11 ===
-		
-		Bitte nutzen Sie für alle interaktiven Flächen Container vom Typ input.
-		
-		=== Feedback Alpers, Ende ===
-		-->
-		<aside>	
-			<button class="createbutton">create</button>
-		</aside>
-		    </form>
-	 	<footer>
-	      <ul>
-	        <li>&copy; 2015</li>
-	        <li>Kevin Hoppe</li>
-	        <li>Mirko Greve</li>
-	        <li>HAW Hamburg</li>
-	      </ul>
-        </footer>
-	</body>
-</evm>
+		<head>
+			<link rel="stylesheet" href="style.css" type="text/css"	/>
+		   	<meta name="view port" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+			<meta charset="UTF-8">
+			<title>eventmanager</title>
+		</head>
+				<body>
+	  					<header>
+	    							<img src="images/yorganizer.jpg" alt="logo" />
+	  					</header>
+	  					<main>	
+	    							<form action="createEvent.php" method="Post">
+	    								<fieldset>
+											<legend>event settings</legend>
+											<input type="radio" name="datetask" id="date" value="dateOn" checked/>
+											<label for="date">date</label>
+											<input type="radio" name="datetask" íd="task" value="taskOn"/>
+											<label for="date">task</label>
+											<br>
+												  
+											<label for="eventname">event name:</label>
+											<input type="text" name="eventname">
+											<br>		
+												  
+											<label for="sliderRelevance">relevance:</label>
+											<input type="range" id="sliderRelevance" name="sliderRelevance" min="1" max="5" value="1" step="1"  
+											oninput="this.form.amount.value=this.value"/>
+											<output name="amount" for="sliderRelevance">1</output>
+											<br>
+												  
+          										<label for="date">set date:</label>
+											<input type="date" name="date">
+											<br>	    
+												  
+											<p>fixed date?
+											   <input type="radio" name="fixedDate" id="fdYes" value="fixedDateYes" checked/>
+											   <label for="fdYes">yes</label>
+											   <input type="radio" name="fixedDate" id="fdNo" value="fixedDateNo"/>
+											   <label for="fdNo">no</label>
+											</p>
+											<br>										
+												  
+											<textarea name="description" placeholder="Describe the event here...[max 250]" rows="5" cols="50" maxlength="250"></textarea>
+											<br>
+												  
+										<input type="submit" name="createbutton" value="create!"/> 
+										</fieldset>	
+								</form>								    
+	  					</main>
+						<footer>
+								    	<ul>
+									    <li>&copy; 2015</li>
+									    <li>Kevin Hoppe</li>
+									    <li>Mirko Greve</li>
+									    <li>HAW Hamburg</li>
+									</ul>
+						</footer>
+   			 	</body>
 </html>
 
 <!--
