@@ -1,8 +1,11 @@
 <?php	
+	//Für jedes Event wird Score anhand der Wertetabelle errechnet
 	for($i = 0; $i < $CountEvents; $i++)
 	{
-		include 'dateDiff.php'; 
+		//Das php-Script errechnet die Tage, die zwischen jetzigen Datum un der Deadline des jeweiligen Events liegen
+		include 'dateDiff.php';
 		
+		//umso weniger Zeit noch übrig ist, desto höher die Priorität
 		switch (true) 
 		{
 			case ($leftDays<7):
@@ -27,6 +30,7 @@
 			break;
 		}
 		
+		//Wenn es ein Fester Termin ist, der unter keinen Umständen verschoben werden kann, steigt die Priorität
 		if($tempAllEvents[$i][5]=="fixedDateYes")
 		{
 			$tempAllEvents[$i][7] += 1;
@@ -36,6 +40,7 @@
 			$tempAllEvents[$i][7] += 0;
 		}
 		
+		//Wenn das Event eine Aufgabe, anstatt ein Termin, steigt die Priorität
 		if($tempAllEvents[$i][6]=="taskOn")
 		{
 			$tempAllEvents[$i][7] += 3;
@@ -45,6 +50,7 @@
 			$tempAllEvents[$i][7] += 0;
 		}
 		
+		//Am Ende wird noch die Priorität des Eventerstellers hinzuaddiert.
 		$tempAllEvents[$i][7] += $tempAllEvents[$i][4];
 	}	
 	
