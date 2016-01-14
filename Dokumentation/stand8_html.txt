@@ -19,4 +19,5 @@ Eingaben wie den eventnamen keine Daten abgeschickt werden können.
 weitere Ziele:
 - Erzeugen und Darstellung des events mithilfe der in eventmanager.html eingegebenen Daten 
 - Implementierung von Microdata
+- Einbinden des PHP-Codes in den HTML-Code
 
