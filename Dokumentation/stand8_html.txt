@@ -11,7 +11,10 @@ ein Datepicker erscheint. Damit allerdings unter anderen Systemen kein Fehler mi
 für PHP entsteht, habe ich einen placeholder eingebaut, der das Format des einzugebenden Datums verdeutlicht.
 
 Die Eingabeformulare wurden jetzt in einem fieldset zusammengefügt. Die Datenübertragung der Formulare
-passiert nun mit input type=submit 
+passiert nun mit input type=submit.
+
+Ich habe die tags der Eingabeformulare durch das Attribut "required" ergänzt, sodass ohne bestimmte
+Eingaben wie den eventnamen keine Daten abgeschickt werden können.
 
 weitere Ziele:
 - Erzeugen und Darstellung des events mithilfe der in eventmanager.html eingegebenen Daten 
