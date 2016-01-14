@@ -9,11 +9,11 @@
 		</head>
 			<body>
 	  			<header>
-	    				<img src="images/yorganizer.jpg" alt="logo" />
+	    			<img src="images/yorganizer.jpg" alt="logo" />
 	  			</header>
 	  			<main>	
-	    			        <form action="createEvent.php" method="Post">
-	    				        <fieldset>
+	    			        <form id="newevent" action="createEvent.php" method="Post">
+	    			         	<fieldset >
 							<legend>event settings</legend>
 							<input type="radio" name="datetask" id="date" value="dateOn" checked/>
 							<label for="date">date</label>
@@ -22,7 +22,7 @@
 							<br>
 												  
 							<label for="eventname">event name:</label>
-							<input type="text" name="eventname">
+							<input type="text" name="eventname" required>
 							<br>		
 												  
 							<label for="sliderRelevance">relevance:</label>
@@ -32,7 +32,7 @@
 							<br>
 
    							<label for="date">set date:</label>
-							<input type="date" name="date">
+							<input type="date" name="date" placeholder="mm/dd/yyyy" required>
 							<br>	    
 												  
 							<p>fixed date?
@@ -46,17 +46,17 @@
 							<textarea name="description" placeholder="Describe the event here...[max 250]" rows="5" cols="50" maxlength="250"></textarea>
 							<br>
 
-						<input type="submit" name="createbutton" value="create!"/> 
-						</fieldset>	
+					        <input type="submit" name="createbutton" value="create!"/> 
+					        </fieldset>	
 					</form>								    
 	  			</main>
 				<footer>
-						<ul>
-							<li>&copy; 2015</li>
-							<li>Kevin Hoppe</li>
-							<li>Mirko Greve</li>
-							<li>HAW Hamburg</li>
-						</ul>
+					<ul>
+						<li>&copy; 2015</li>
+						<li>Kevin Hoppe</li>
+						<li>Mirko Greve</li>
+						<li>HAW Hamburg</li>
+					</ul>
 				</footer>
    			</body>
 </html>
