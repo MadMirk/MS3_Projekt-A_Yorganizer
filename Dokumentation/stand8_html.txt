@@ -1,0 +1,19 @@
+Änderungen:
+
+Ich habe die labels den jeweiligen inputs zugewiesen und den Code so überarbeitet,
+dass er nun deutlich leserlicher ist. Dabei bin ich insbesondere auf das Feedback von
+Herr Alpers eingegangen und habe z.B. die unnötigen Zeilenumbrüche durch max. 1 pro Formular ersetzt.
+
+Zudem habe ich den implementierten Js-Code entfernt und lediglich durch diese Zeile
+"<input type="date" name="date" placeholder="mm/dd/yyyy">" ersetzt. Dadurch ist die Auswahl
+des Datums systemunabhängig. Schöner Bonus ist hierbei allerdings, dass unter Chrome trotzdem
+ein Datepicker erscheint. Damit allerdings unter anderen Systemen kein Fehler mit der Datenübertragung
+für PHP entsteht, habe ich einen placeholder eingebaut, der das Format des einzugebenden Datums verdeutlicht.
+
+Die Eingabeformulare wurden jetzt in einem fieldset zusammengefügt und die Eingabe in diese Felder 
+wird mit input type="submit" beendet.
+
+weitere Ziele:
+- Erzeugen und Darstellung des events mithilfe der in eventmanager.html eingegebenen Daten 
+- Implementierung von Microdata
+
