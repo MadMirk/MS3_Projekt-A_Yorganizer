@@ -1,8 +1,9 @@
 <?php
+	//laden von allen vorhandenen Events
 	include 'loadEvents.php';
 	
 	//Sortierung des Arrays nach Priorität
-	$sortArray = array(); 
+	$sortArray = array();
     foreach($tempAllEvents as $key => $array) 
     { 
         $sortArray[$key] = $array[7]; 
@@ -24,6 +25,7 @@
 		Priorität: ".$tempAllEvents[$i][7]."<br><br>";	
 	}	
 ?>
+
 
 <!--
 === Feedback Alpers, Dez 11 ===
