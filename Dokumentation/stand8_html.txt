@@ -21,3 +21,8 @@ weitere Ziele:
 - Implementierung von Microdata
 - Einbinden des PHP-Codes in den HTML-Code
 
+=== Feedback Alpers, Jan 19 ===
+
+Sehr gute Dokumentation: Knapp und erläutert gut, wo Sie gerade stehen.
+
+=== Feedback Alpers, Ende ===
